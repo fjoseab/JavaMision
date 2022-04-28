@@ -1,6 +1,6 @@
 package practicaMultiverse;
 
-import java.awt.*;
+import imonsh.*;
 
 public class MilesMorales extends HombreAraña implements MilesMoralesActions{
 
@@ -11,7 +11,7 @@ public class MilesMorales extends HombreAraña implements MilesMoralesActions{
     @Override
     public void superhumanStrength(Screen s) {
         s.setVisible(true);
-        s.out(toString()+ " Ataque Superhuman Strength\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Strength\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("Miles_Morales_Spider-Man.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -20,7 +20,7 @@ public class MilesMorales extends HombreAraña implements MilesMoralesActions{
     public void superhumanSpeed(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Speed\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Speed\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("Miles_Morales_Spider-Man.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -29,7 +29,7 @@ public class MilesMorales extends HombreAraña implements MilesMoralesActions{
     public void superhumanAgility(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Agility\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Agility\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("Miles_Morales_Spider-Man.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -38,7 +38,7 @@ public class MilesMorales extends HombreAraña implements MilesMoralesActions{
     public void spiderSense(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Spider Sense\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Spider Sense\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("Miles_Morales_Spider-Man.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -47,7 +47,7 @@ public class MilesMorales extends HombreAraña implements MilesMoralesActions{
     public void wallCrawling(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Wall Crawling\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Wall Crawling\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("Miles_Morales_Spider-Man.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -56,7 +56,7 @@ public class MilesMorales extends HombreAraña implements MilesMoralesActions{
     public void camouflage(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Camouflage\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Camouflage\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("Miles_Morales_Spider-Man.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -65,7 +65,7 @@ public class MilesMorales extends HombreAraña implements MilesMoralesActions{
     public void venomStrike(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Venom Strike\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Venom Strike\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("Miles_Morales_Spider-Man.jpg");
         s.setBounds(200,100,1100,900);
     }

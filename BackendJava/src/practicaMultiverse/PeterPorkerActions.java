@@ -1,5 +1,5 @@
 package practicaMultiverse;
-
+import imonsh.*;
 public interface PeterPorkerActions {
     void superhumanStrength(Screen s);
     void superhumanSpeed(Screen s);

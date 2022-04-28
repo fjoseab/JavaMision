@@ -1,5 +1,5 @@
 package practicaMultiverse;
-
+import imonsh.*;
 public class Main {
     public static void main(String[] args){
         spider();

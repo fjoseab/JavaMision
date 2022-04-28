@@ -57,7 +57,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainComic">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practicaMultiverse.Main" />
+      <module name="BackendJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practicaMultiverse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticaMona.Main" />
       <module name="BackendJava" />
@@ -72,7 +85,7 @@
       </method>
     </configuration>
     <configuration name="MainComic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainComic" />
+      <option name="MAIN_CLASS_NAME" value="PracticaComic.MainComic" />
       <module name="BackendJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.MainComic" />
         <item itemvalue="Application.Main" />
       </list>
@@ -102,5 +116,15 @@
       <updated>1650395367108</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/Downloads/imonsh.jar!/Dialog.class</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

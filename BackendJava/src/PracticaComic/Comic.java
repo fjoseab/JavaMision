@@ -1,5 +1,6 @@
 package PracticaComic;
 
+
 public class Comic {
     String nombre, capitulo, idioma, editorial;
     int numeroPaginas, tomo;

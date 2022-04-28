@@ -1,6 +1,6 @@
 package practicaMultiverse;
 
-import java.awt.*;
+import imonsh.*;
 
 public class PeterParker extends HombreAraña implements PeterParkerActions{
 
@@ -12,7 +12,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void superhumanStrength(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Strength\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Strength\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -21,7 +21,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void superhumanDurability(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Durability\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Durability\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -30,7 +30,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void superhumanSpeed(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Speed\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Speed\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -39,7 +39,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void superhumanAgility(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Agility\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Agility\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -48,7 +48,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void superhumanReflexes(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Reflexes\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Reflexes\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -57,7 +57,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void superhumanEquilibrium(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Equilibrium\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Equilibrium\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -66,7 +66,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void superhumanJumping(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Jumping\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Jumping\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -75,7 +75,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void superhumanStamina(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Superhuman Stamina\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Superhuman Stamina\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -84,7 +84,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void spiderSense(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Spider Sense\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Spider Sense\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }
@@ -93,7 +93,7 @@ public class PeterParker extends HombreAraña implements PeterParkerActions{
     public void wallClimber(Screen s) {
         s.cls();
         s.repaint();
-        s.out(toString()+ " Ataque Wall Climber\n", "Helvetica", 28, Color.BLACK);
+        s.out(toString()+ " Ataque Wall Climber\n", "Helvetica", 28, Colors.BLACK);
         s.showImage("D5FF60F6-50C4-4899-981A-0F118D104A76.jpg");
         s.setBounds(200,100,1100,900);
     }

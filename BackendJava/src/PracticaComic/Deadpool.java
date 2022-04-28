@@ -1,6 +1,6 @@
 package PracticaComic;
 
-import java.awt.*;
+import imonsh.*;
 
 public class Deadpool extends  Comic implements ComicAction{
     public Deadpool(String nombre, String capitulo, String idioma, String editorial, int numeroPaginas, int tomo) {
@@ -14,11 +14,11 @@ public class Deadpool extends  Comic implements ComicAction{
                 screen.setVisible(true);
                 screen.cls();
                 screen.repaint();
-                screen.out(Deadpool.super.toString()+"\n", "Helvetica", 28, Color.BLACK);
+                screen.out(Deadpool.super.toString()+"\n", "Helvetica", 28, Colors.BLACK);
                 for (int i = 1; i < numeroPaginas; i++) {
                     screen.showImage(i+".JPG");
                     screen.setBounds(0,0,1920,1080);
-                    screen.out("\n", "Helvetica", 28, Color.BLACK);
+                    screen.out("\n", "Helvetica", 28, Colors.BLACK);
                     try {
                         Thread.sleep(10000);
                     } catch (InterruptedException e) {
